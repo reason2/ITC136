@@ -1,0 +1,20 @@
+sudo vim /usr/local/bin/itc136
+ls -l /usr/local/bin/itc136
+"
+sudo chmod +x /usr/local/bin/itc136
+type <itc136>
+"This is the ITC136 file"
+sudo vim /usr/local/games/itc136
+ls -l /usr/local/games/itc136
+sudo chmod +x /usr/local/games/itc136
+
+
+
+
+
+
+
+
+
+
+variable=$(df -h | grep "/dev/sda1" | awk '{print $5}')
