@@ -1,8 +1,10 @@
-/home/<user>/(Can branch off to "Share/public"; "Desktop"; "Videos"; "Documents"; "Pictures"; "Music")
+/home/<user>/ (can branch off to other folders i.e. "Share/public"; "Desktop"; "Videos"; "Documents"; "Pictures"; "Music", etc.)
+/tmp (location of other files)
+/etc/ (System config, Ssh server)
+/var/ (log, mail, spool, cops) Semi-permanent files (constantly being updated)
 /etc/ (System config, Ssh server)
 /etc/ssh (bin=user binaries); (sbin=system binary); (lib=libraries); (share=fonts/pics)
 Multiple levels of files system:
   a - no prefix; (/bin; /sbin; /lib) = base functionality
   b - user prefix;(/usr/sbin) = functioning with users
   c - user local prefix (/usr/local/lib/bin) = locally complied programs
-  
