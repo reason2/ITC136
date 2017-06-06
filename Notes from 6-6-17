@@ -1,2 +1,8 @@
 /home/<user>/(Can branch off to "Share/public"; "Desktop"; "Videos"; "Documents"; "Pictures"; "Music")
 /etc/ (System config, Ssh server)
+/etc/ssh (bin=user binaries); (sbin=system binary); (lib=libraries); (share=fonts/pics)
+Multiple levels of files system:
+  a - no prefix; (/bin; /sbin; /lib) = base functionality
+  b - user prefix;(/usr/sbin) = functioning with users
+  c - user local prefix (/usr/local/lib/bin) = locally complied programs
+  
