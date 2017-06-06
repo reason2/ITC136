@@ -8,3 +8,9 @@ Multiple levels of files system:
   a - no prefix; (/bin; /sbin; /lib) = base functionality
   b - user prefix;(/usr/sbin) = functioning with users
   c - user local prefix (/usr/local/lib/bin) = locally complied programs
+how would u find out where a binary is - (cmd = "whereis ifconfig")
+can also use "which" to find a single output vs whereis giving u multiple
+"locate ifconfig" gives u location of config file 
+dev = devices and device 
+locate = accurately tell u where files are; only as current as last time it ran
+whereis = incomplete info but will show as much as possible w/in that path multiple outputs
